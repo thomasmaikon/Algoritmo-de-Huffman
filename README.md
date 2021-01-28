@@ -4,7 +4,7 @@ O algoritmo de huffman e bastante popular e eficiente para compressão de dados 
 ## :gear: Funcionamento
 O algoritmo de ruffman lê e contabiliza todas as letras separadamente e as converte em nó, seguindo alguns conceitos da estrutura de dados conhecida como arvore, posteriormente ele separa em diferentes nós de forma crescente.  
 
-Um arquivo de texto tendo por exemplo a seguinte sequencia de letras: ABCDDABOK
+Um arquivo de texto tendo por exemplo a seguinte sequencia de letras: ACDDDAO
 
 ![imagemExemplo](https://github.com/thomasmaikon/Algoritmo-de-Huffman/blob/main/public/1.png)
 
