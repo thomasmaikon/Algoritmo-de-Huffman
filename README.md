@@ -6,11 +6,15 @@ O algoritmo de ruffman lê e contabiliza todas as letras separadamente e as conv
 
 Um arquivo de texto tendo por exemplo a seguinte sequencia de letras: ABCDDABOK
 
-<Imagem exemplo>
+![imagemExemplo](https://github.com/thomasmaikon/Algoritmo-de-Huffman/blob/main/public/1.png)
 
 Posteriormente ele junta cada nó folha de forma crescete, os soma e reorganiza a posicao dos elementos até que a arvore esteja completa.
 
-<giph demostrando a soma e reorganizando>
+![animacao](https://github.com/thomasmaikon/Algoritmo-de-Huffman/blob/main/public/animacao.gif)
+    
+Arvore resultante das operações feitas anteriormente.
+
+![imagem](https://github.com/thomasmaikon/Algoritmo-de-Huffman/blob/main/public/ARVORE.png)
 
 ## Utilização
 No arquivo **HuffmanTeste** são implementadas 3(três) métodos diferentes, no primeiro é demonstrando como é realizada a leitura do arquivo **.txt** através da classe Huffman.  
