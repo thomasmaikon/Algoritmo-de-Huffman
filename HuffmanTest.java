@@ -11,7 +11,7 @@ class HuffmanTest {
     @Test
     void lerArquivoEcontaLetras() throws FileNotFoundException {
         Huffman c = new Huffman();
-        c.lerArquivo("/home/thomas/Documents/EstruturaDeDados2/src/teste-trabalho3.txt");
+        c.lerArquivo("caminhoDoArquivo"); // exemplo: /Documentos/src/teste-trabalho3.txt
         for (Letras l: c.getLetra()){
             System.out.println(l);
         }
@@ -19,14 +19,14 @@ class HuffmanTest {
     @Test
     void arvore() throws FileNotFoundException {
         Huffman c = new Huffman();
-        c.lerArquivo("/home/thomas/Documents/EstruturaDeDados2/src/teste-trabalho3.txt");
+        c.lerArquivo("caminhoDoArquivo");
 
         System.out.println(c.gerarArvore());
     }
     @Test
     void tabelaDeSimbolos() throws FileNotFoundException {
         Huffman c = new Huffman();
-        c.lerArquivo("/home/thomas/Documents/EstruturaDeDados2/src/teste-trabalho3.txt");
+        c.lerArquivo("caminhoDoArquivo");
 
         c.gerarArvore();
         c.tabelaDeSimbolos();
