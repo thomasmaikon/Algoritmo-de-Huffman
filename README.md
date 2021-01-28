@@ -17,6 +17,7 @@ No arquivo **HuffmanTeste** são implementadas 3(três) métodos diferentes, no 
 
 ```java 
     Huffman c = new Huffman();    
+     c.lerArquivo("caminho do arquivo") ex:/Documentos/src/file.txt
 ``` 
 
 No segundo é demonstrado o metodo utilizado para gerar a arvore referente ao arquivo lido.  
