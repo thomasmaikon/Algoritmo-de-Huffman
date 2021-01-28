@@ -2,7 +2,7 @@
 O algoritmo de huffman e bastante popular e eficiente para compressão de dados presente em arquivos. Neste ele foi implementado para realizar compressao em arquivos **.txt** 
 
 ## :gear: Funcionamento
-O algoritmo de ruffman le e contabiliza todas as letras presentes no arquivo e as separa em folhas, seguindo alguns conceitos da estrutura de dados conhecida como arvore, posteriormente ele separa em diferentes nós de forma crescente.  
+O algoritmo de ruffman lê e contabiliza todas as letras separadamente e as converte em nó, seguindo alguns conceitos da estrutura de dados conhecida como arvore, posteriormente ele separa em diferentes nós de forma crescente.  
 
 Um arquivo de texto tendo por exemplo a seguinte sequencia de letras: ABCDDABOK
 
